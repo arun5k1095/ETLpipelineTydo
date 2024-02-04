@@ -57,6 +57,7 @@ After spinning off the containers via docker, the application will:
 The image below displays the output of the application for a small data sample: :
 
 ![image](https://github.com/arun5k1095/ETLpipelineTydo/assets/46933151/b615270a-2aae-4768-87ac-8249b0fb2aef)
+![image](https://github.com/arun5k1095/ETLpipelineTydo/assets/46933151/27e6bc6d-04b3-46f4-8f30-8bf86f46edf4)
 
 ## Accessing Data
 

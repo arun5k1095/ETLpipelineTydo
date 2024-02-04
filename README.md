@@ -60,7 +60,7 @@ While this app was coded and tested on Windows, I hope it cooperates on Mac or L
 
 And few thoughts towards how this applicaiton could be scaled in production grade env :
 
-**scaling Opinion :**
+**Scaling Opinion :**
 - Scale by adding more application server instances behind the load balancer for increased capacity.
 - Implement database scaling techniques for handling data growth.
 

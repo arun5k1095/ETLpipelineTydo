@@ -1,4 +1,4 @@
-#ETL data pipeline application for Tydo (POC)
+# ETL data pipeline application for Tydo (POC)
 
 ## About
 

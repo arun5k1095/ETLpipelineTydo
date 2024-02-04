@@ -53,6 +53,11 @@ After spinning off the containers via docker, the application will:
 2. Transform the data according to the logic defined in `main.py`.
 3. Upload the transformed data to the emulated S3 service in LocalStack.
 
+
+The image below displays the output of the application for a small data sample: :
+
+![image](https://github.com/arun5k1095/ETLpipelineTydo/assets/46933151/b615270a-2aae-4768-87ac-8249b0fb2aef)
+
 ## Accessing Data
 
 To access the uploaded files in LocalStack's S3:

@@ -66,7 +66,7 @@ And few thoughts towards how this applicaiton could be scaled in production grad
 
 **Edge cases :**
 - Monitoring for resource limits and unexpected cost spikes.
--Implement robust error handling and retry mechanisms, especially when interacting with external services.
+- Implement robust error handling and retry mechanisms, especially when interacting with external services.
 - Pay attention to security measures, including access controls and encryption, to protect sensitive data.
 
 

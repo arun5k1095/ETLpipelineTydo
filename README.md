@@ -2,15 +2,14 @@
 
 ## About
 
-This assignment orchestrates an ETL process that extracts data from Google BigQuery public crypto_zillqa data set, processes it, and then uploads the results to an AWS S3 using LocalStack for local emulation. 
-
+This assignment orchestrates an ETL process that extracts data from Google BigQuery public crypto_zillqa dataset, processes it, and then uploads the results to an AWS S3 using LocalStack for local emulation. The result is single file with parquet file format.
 
 
 ## Docker operating Architecture
 
-- **Application Container**: Executes the Python scriptto interact with BigQuery to extract data, transforms, and load it into a simulated S3 bucket in LocalStack as transformed_transactions.parquet file.
-
-- **LocalStack Container**: Simulates AWS cloud services locally.
+- Application Container will execut the Python script to interact with BigQuery to extract data, transforms, and load it into a simulated S3 bucket in LocalStack.
+And , 
+- LocalStack container shall Simulate AWS cloud services locally.
 
 ## System Setup and Installation
 
@@ -50,3 +49,5 @@ To access the uploaded files in LocalStack's S3:
 - Use AWS CLI configured for LocalStack
    e.g  command :  aws --endpoint-url=http://localhost:4566 s3 ls
 
+## Note :
+While this app was coded and tested on Windows, I hope it cooperates on Mac or Linux as well. In case you not, yo'ure free to make any necessary OS-specific changes.

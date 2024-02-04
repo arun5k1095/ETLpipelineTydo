@@ -7,15 +7,8 @@ This assignment orchestrates an ETL process that extracts data from Google BigQu
 
 ## Local operating Architecture
 
-                         Start prrocess
-		           |
-               Spin Off Two Containers in Docker
-              /                       \
-  Application Container               LocalStack Container
-     Interact with BigQuery                 |
-     Transform Data                         |
-     Aggregate into DataFrame               |
-     Save as Parquet file    ------->       S3 bucket     
+![image](https://github.com/arun5k1095/ETLpipelineTydo/assets/46933151/342f8e49-cd9b-48a4-89b3-ba043cc5d32f)
+
 
 ## System Setup and Installation
 

@@ -55,16 +55,16 @@ To access the uploaded files in LocalStack's S3:
 - Use AWS CLI configured for LocalStack
    e.g  command :  aws --endpoint-url=http://localhost:4566 s3 ls
 
-## Note :
+## Notes :
 While this app was coded and tested on Windows, I hope it cooperates on Mac or Linux as well. In case you not, yo'ure free to make any necessary OS-specific changes.
 
-Also few thoughts towards how this applicaiton could be scaled in production grade env :
+And few thoughts towards how this applicaiton could be scaled in production grade env :
 
-**Production scaling suggestions :**
+**scaling Opinion :**
 - Scale by adding more application server instances behind the load balancer for increased capacity.
 - Implement database scaling techniques for handling data growth.
 
-**Edge cases to note : **
+**Edge cases :**
 - Monitoring for resource limits and unexpected cost spikes.
 -Implement robust error handling and retry mechanisms, especially when interacting with external services.
 - Pay attention to security measures, including access controls and encryption, to protect sensitive data.

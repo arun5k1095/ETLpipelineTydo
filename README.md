@@ -25,7 +25,10 @@ This assignment orchestrates an ETL process that extracts data from Google BigQu
     ```
     git clone https://github.com/arun5k1095/ETLpipelineTydo.git
     ```
-   
+2. **Set current Working directory**
+   ```
+   cd ETLpipelineTydo
+   ```
 2. **Google Cloud Credentials**
     - Replace `Gcloud_Creds_test_user.json` with your Google Cloud service account key file.
     
@@ -37,7 +40,7 @@ This assignment orchestrates an ETL process that extracts data from Google BigQu
 	- Download the service account credentials in JSON format, which we are using as Gcloud_Creds_Arun.json file.
 
 3. **Build and Run**
-	In your CLI  , set the CWD as this cloned project , and give following command 
+	In your CLI give following command to build  and spin off the containers :
     ```
     docker-compose up --build
     ```

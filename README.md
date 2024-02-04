@@ -31,6 +31,13 @@ This assignment orchestrates an ETL process that extracts data from Google BigQu
    
 2. **Google Cloud Credentials**
     - Replace `Gcloud_Creds_test_user.json` with your Google Cloud service account key file.
+    
+    To get this  :
+	- Sign up for a Google Cloud account.
+	- Create a project in your Google Cloud Console.
+	- Enable the BigQuery API for your project.
+	- Create a service account in the IAM & Admin section , and assign the "BigQuery User" role to it.
+	- Download the service account credentials in JSON format, which we are using as Gcloud_Creds_Arun.json file.
 
 3. **Build and Run**
 	In your CLI  , set the CWD as this cloned project , and give following command 

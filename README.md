@@ -25,9 +25,6 @@ This assignment orchestrates an ETL process that extracts data from Google BigQu
     ```
     git clone https://github.com/arun5k1095/ETLpipelineTydo.git
     ```
-
-![image](https://github.com/arun5k1095/ETLpipelineTydo/assets/46933151/0fec24cb-bd04-47dc-8c5e-ba97b6e2e6fc)
-
    
 2. **Google Cloud Credentials**
     - Replace `Gcloud_Creds_test_user.json` with your Google Cloud service account key file.

@@ -38,7 +38,7 @@ try:
         RowsIteretable = client.list_rows(DBTableID, max_results=chunkSize, page_token=PageToken)
         page = RowsIteretable.to_dataframe()
 
-        # Transforming certain data's type
+        # Transforming certain data's data-type
         page['block_timestamp'] = pd.to_datetime(page['block_timestamp'])
         page['amount'] = page['amount'].astype(float)
         page['gas_price'] = page['gas_price'].astype(float)

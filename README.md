@@ -67,7 +67,7 @@ The image below displays the output what you shall observe if you follow these s
 
 To access the uploaded files in LocalStack's S3:
 - Use AWS CLI configured for LocalStack
-   e.g  command :  aws --endpoint-url=http://localhost:4566 s3 ls
+   ```aws --endpoint-url=http://localhost:4566 s3 ls```
 
 ## Notes :
 While this app was coded and tested on Windows, I hope it cooperates on Mac or Linux as well. In case you not, yo'ure free to make any necessary OS-specific changes.

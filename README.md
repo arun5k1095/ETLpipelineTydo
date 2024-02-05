@@ -37,7 +37,7 @@ This assignment orchestrates an ETL process that extracts data from Google BigQu
 	- Create a project in your Google Cloud Console.
 	- Enable the BigQuery API for your project.
 	- Create a service account in the IAM & Admin section , and assign the "BigQuery User" role to it.
-	- Download the service account credentials in JSON format, which we are using as Gcloud_Creds_Arun.json file.
+	- Download the service account credentials in JSON format, and overwrite Gcloud_Creds_test_user.json file with this, so that you're able to access bigQuery from your credentials.
 
 3. **Build and Run**
    

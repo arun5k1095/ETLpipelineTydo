@@ -54,11 +54,13 @@ After spinning off the containers via docker, the application will:
 3. Upload the transformed data to the emulated S3 service in LocalStack.
 
 
-The image below displays the output of the application for a small data sample: :
+The image below displays the output what you shall observe if you follow these steps , here code was modifed to fetch only part of whole data: :
 
 
-![image](https://github.com/arun5k1095/ETLpipelineTydo/assets/46933151/e7d991ea-03a6-437c-a8ab-290142d14123)
-![image](https://github.com/arun5k1095/ETLpipelineTydo/assets/46933151/80c20860-bb2e-4251-876d-bd7b74248aed)
+![image](https://github.com/arun5k1095/ETLpipelineTydo/assets/46933151/caac5560-c1f3-493c-83ef-94d0870d7f1d)
+![image](https://github.com/arun5k1095/ETLpipelineTydo/assets/46933151/5d937bbb-3680-4cd5-bdb4-59ef55849fa0)
+![image](https://github.com/arun5k1095/ETLpipelineTydo/assets/46933151/146a9b1f-748f-4927-87c8-e8ef12bf0955)
+
 
 
 ## Accessing Data
